@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="afpa.css">
+</head>
+<style>
+    main h1 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    flex-basis: 32%; /* This ensures each card takes approximately one-third of the container's width */
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden; /* If image is larger than card, this hides the overflow */
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 50%; /* This makes the image take the full width of its container */
+    display: block;
+}
+
+.card h2 {
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.card p {
+    padding: 0 15px 15px;
+}
+</style>
+<body>
+    <header>
+        <img src="logo_afpaafpa_logo_v.svg" alt="Logo Afpa">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="formation.html">Description</a></li>
+                <li><a href="temoignages.html">Témoignages</a></li>
+                <li><a href="references.html">Nos références</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>les anciens eleve temoignages</h1>
+        <section class="card-container">
+            <article class="card">
+                <img src="logo_afpa.svg" alt="Card Image 1">
+                <h2>nom prenom</h2>
+                <p>temoignages Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus molestias illum cumque ipsum ad ab at quisquam, nulla incidunt eius sapiente nemo voluptatem voluptates esse iusto architecto cupiditate nostrum.
+                Quibusdam unde quasi deserunt qui sed ea, placeat consequuntur dolorem dolore distinctio nam in quam commodi delectus dolorum magni enim similique minus dignissimos odio numquam. Quae quaerat modi tenetur iure.
+                Dolorum, nobis? Assumenda explicabo dignissimos repudiandae vitae corrupti cum minima harum quia obcaecati ex id eligendi sit debitis tempore beatae accusantium, dolor qui suscipit. Assumenda enim provident obcaecati architecto placeat?</p>
+            </article>
+            <article class="card">
+                <img src="logo_afpa.svg" alt="Card Image 2">
+                <h2>nom prenom</h2>
+                <p>temoignages Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus molestias illum cumque ipsum ad ab at quisquam, nulla incidunt eius sapiente nemo voluptatem voluptates esse iusto architecto cupiditate nostrum.
+                Quibusdam unde quasi deserunt qui sed ea, placeat consequuntur dolorem dolore distinctio nam in quam commodi delectus dolorum magni enim similique minus dignissimos odio numquam. Quae quaerat modi tenetur iure.
+                Dolorum, nobis? Assumenda explicabo dignissimos repudiandae vitae corrupti cum minima harum quia obcaecati ex id eligendi sit debitis tempore beatae accusantium, dolor qui suscipit. Assumenda enim provident obcaecati architecto placeat?</p>
+            </article>
+            <article class="card">
+                <img src="logo_afpa.svg" alt="Card Image 3">
+                <h2>nom prenom</h2>
+                <p>temoignages Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus molestias illum cumque ipsum ad ab at quisquam, nulla incidunt eius sapiente nemo voluptatem voluptates esse iusto architecto cupiditate nostrum.
+                    Quibusdam unde quasi deserunt qui sed ea, placeat consequuntur dolorem dolore distinctio nam in quam commodi delectus dolorum magni enim similique minus dignissimos odio numquam. Quae quaerat modi tenetur iure.
+                    Dolorum, nobis? Assumenda explicabo dignissimos repudiandae vitae corrupti cum minima harum quia obcaecati ex id eligendi sit debitis tempore beatae accusantium, dolor qui suscipit. Assumenda enim provident obcaecati architecto placeat?</p>
+                </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>AFPA-2020</p>
+    </footer>
+    
+</body>
+</html>
